@@ -1,0 +1,20 @@
+{
+  "name": "NLW-Projeto",
+  "version": "1.0.0",
+  "description": "Projeto produzido durante a Next level week, se trata de uma plataforma de estudos online chamada Proofy, desenvolvida com conceitos de HTML5, CSS3 e JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vitor-Alvesz/NLW-Projeto.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vitor-Alvesz/NLW-Projeto/issues"
+  },
+  "homepage": "https://github.com/Vitor-Alvesz/NLW-Projeto#readme"
+}
