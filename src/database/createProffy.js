@@ -7,10 +7,10 @@ module.exports = async function(db, { proffyValue, classValue, classScheduleValu
             whatsapp,
             bio
         ) VALUES (
-            ${proffyValue.name},
-            ${proffyValue.avatar},
-            ${proffyValue.whatsapp},
-            ${proffyValue.bio}
+            "${proffyValue.name}",
+            "${proffyValue.avatar}",
+            "${proffyValue.whatsapp}",
+            "${proffyValue.bio}"
         );
 
    
@@ -24,9 +24,9 @@ module.exports = async function(db, { proffyValue, classValue, classScheduleValu
                 cost,
                 proffy_id
             ) VALUES (
-                ${classValue.subject},
-                ${classValue.cost},
-                ${proffy_id}
+                "${classValue.subject}",
+                "${classValue.cost}",
+                "${proffy_id}"
             );
    `) 
     
@@ -41,10 +41,10 @@ module.exports = async function(db, { proffyValue, classValue, classScheduleValu
                 time_from,
                 time_to
             ) VALUES (
-                ${class_id},
-                ${classSchedulevalue.weekday},
-                ${classSchedulevalue.time_from},
-                ${classSchedulevalue.time_to},
+                "${class_id}",
+                "${classSchedulevalue.weekday}",
+                "${classSchedulevalue.time_from}",
+                "${classSchedulevalue.time_to}"
             );
         `)
     })
